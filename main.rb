@@ -9,4 +9,11 @@ require './filters'
 
 # binding.pry
 
-pp @candidates
+# pp @candidates
+
+# # @candidates.each do |candidate|
+# puts qualified_candidates(@candidates)
+
+pp ordered_by_qualifications(@candidates)
+
+
